@@ -71,7 +71,7 @@ export default class EffectiveDamageApplication {
           types.push(data);
         }
       }
-      const changeSources = types.reduce((acc, config) => acc + this.getChangeSourceButton(config, targetOptions), "");
+      const changeSources = types.reduce((acc, config) => acc + this.getChangeSourceOptions(config, targetOptions), "");
 
       const li = document.createElement("li");
       li.classList.add("target");
