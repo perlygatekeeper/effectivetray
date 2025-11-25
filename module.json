@@ -1,7 +1,8 @@
 {
-  "id": "effectivetray-ng",
-  "title": "Effective Tray NG",
-  "version": "13.350-5.1.10-1",
+  "id": "effectivetray",
+  "title": "Effective Tray",
+  "description": "Enhances the D&D5e effect and damage trays to allow players to apply effects and damage to targets they don’t own—with GM-controlled permissions. Includes socket-based GM delegation, filtering, concentration support, and macro helpers.",
+  "version": "13.350.0.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.350",
@@ -32,7 +33,7 @@
         "type": "module",
         "compatibility": {
           "minimum": "1.13.0.0",
-          "verfied": "1.13.4.0"
+          "verified": "1.13.4.0"
         }
       }
     ]
@@ -41,36 +42,27 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
+      "path": "lang/en.json"
     }
   ],
   "flags": {
     "hotReload": {
-      "extensions": [
-        "css",
-        "json"
-      ],
-      "paths": [
-        "styles/effectivetray.css",
-        "lang"
-      ]
+      "extensions": ["css", "json"],
+      "paths": ["styles/effectivetray.css", "lang"]
     }
   },
   "socket": true,
-  "url": "https://github.com/alterNERDtive/effectivetray",
-  "bugs": "https://github.com/alterNERDtive/effectivetray/issues/",
-  "changelog": "https://github.com/alterNERDtive/effectivetray/releases/latest/",
-  "download": "https://github.com/alterNERDtive/effectivetray/archive/refs/heads/main.zip",
-  "manifest": "https://github.com/alterNERDtive/effectivetray/raw/refs/heads/main/module.json",
+  "url": "https://github.com/perlygatekeeper/effectivetray",
+  "bugs": "https://github.com/perlygatekeeper/effectivetray/issues",
+  "changelog": "https://github.com/perlygatekeeper/effectivetray/releases/latest",
+  "download": "https://github.com/perlygatekeeper/effectivetray/archive/refs/heads/main.zip",
+  "manifest": "https://github.com/perlygatekeeper/effectivetray/raw/main/module.json",
   "license": "LICENSE",
   "readme": "README.md",
   "authors": [
     {
-      "name": "alterNERDtive",
-      "discord": "alternerdtive",
-      "url": "https://alternerd.tv",
-      "flags": {}
+      "name": "perlygatekeeper",
+      "url": "https://github.com/perlygatekeeper"
     }
   ]
 }
